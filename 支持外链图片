@@ -1,0 +1,15 @@
+wordpress不需要修改什么，直接用就可以了
+
+
+
+
+
+timthumb.php支持外链图片的方法 typecho
+直接用shangchuanbuliaoaxiugaiban.php就可以 
+
+只显示某些网站的图片：
+编辑timthumb.php这个文件，找到$ALLOWED_SITES，在里面添加支持的网站，然后设置ALLOW_EXTERNAL=true
+
+如果要修改timthumb.php请这样修改
+显示所有网站的外链图片：
+编辑timthumb.php这个文件，设置ALLOW_ALL_EXTERNAL_SITES=true
